@@ -10,8 +10,10 @@
 }
 
 .characters > .char-container {
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .characters > .char-container .char-item {
@@ -19,15 +21,3 @@
   width: 22rem;
   margin: 1.5rem;
 }
-
-/* @media (min-width: 641px) {
-  .characters {
-    height: 90vh;
-  }
-
-  .characters > .char-container {
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-  }
-} */
