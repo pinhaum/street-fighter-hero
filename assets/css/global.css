@@ -3,6 +3,7 @@
 @import url('header.css');
 @import url('characters.css');
 @import url('cta.css');
+@import url('feedback.css');
 
 :root {
   --black: #121212;
