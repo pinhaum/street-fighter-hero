@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,400;0,600;1,900');
 @import url('navbar.css');
+@import url('header.css');
 
 :root {
   --black: #121212;
   --yellow: #f1a90d;
   --white: #ffffff;
   --grey: #212529;
-
-  /* #737F8A */
+  --lighter-grey: #737f8a;
 }
 
 * {
@@ -22,4 +22,36 @@ html {
 
 body {
   font-family: 'Barlow Condensed', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+p {
+  font-weight: 300;
+}
+
+.icon {
+  position: relative;
+  margin: 1rem;
+}
+
+.icon::before,
+.icon::after {
+  content: '';
+  width: 5rem;
+  height: 2px;
+  background-color: currentColor;
+  position: absolute;
+  top: 50%;
+}
+.icon::before {
+  left: 20px;
+}
+.icon::after {
+  right: 20px;
 }
