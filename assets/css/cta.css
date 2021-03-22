@@ -23,7 +23,7 @@
   background-color: var(--black);
   color: var(--white);
   text-transform: uppercase;
-
+  border: 0;
   border-radius: 6px;
   height: 3rem;
   width: 6rem;
