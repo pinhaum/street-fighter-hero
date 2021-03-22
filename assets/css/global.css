@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,400;0,600;1,900');
 @import url('navbar.css');
 @import url('header.css');
+@import url('characters.css');
 
 :root {
   --black: #121212;
@@ -31,13 +32,19 @@ h1 {
   font-style: italic;
 }
 
+h2 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 p {
   font-weight: 300;
 }
 
 .icon {
   position: relative;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .icon::before,
