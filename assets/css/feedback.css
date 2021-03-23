@@ -43,6 +43,12 @@
   margin-top: 3rem;
 }
 
+.feedback-button:hover {
+  background-color: transparent;
+  color: var(--yellow);
+  border: 2px solid;
+}
+
 @media (min-width: 641px) {
   .feedback > .feedback-form input {
     width: 20rem;
