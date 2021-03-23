@@ -1,0 +1,22 @@
+.footer {
+  background-color: var(--black);
+  color: var(--white);
+
+  height: 20vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > .footer-wrapper {
+  width: 12rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 1rem;
+}

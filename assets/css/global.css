@@ -4,6 +4,7 @@
 @import url('characters.css');
 @import url('cta.css');
 @import url('feedback.css');
+@import url('footer.css');
 
 :root {
   --black: #121212;
@@ -38,6 +39,13 @@ h2 {
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 1remrem;
+  font-weight: 600;
+  font-style: italic;
 }
 
 p {
