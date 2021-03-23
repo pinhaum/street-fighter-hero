@@ -42,3 +42,9 @@
   border: 0;
   margin-top: 3rem;
 }
+
+@media (min-width: 641px) {
+  .feedback > .feedback-form input {
+    width: 20rem;
+  }
+}
