@@ -1,0 +1,27 @@
+.characters {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 1rem;
+}
+
+.characters > .char-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.characters > .char-container .char-item {
+  border-radius: 12px;
+  width: 22rem;
+  margin: 1.5rem;
+}
+
+.characters > .char-container .char-item:hover {
+  opacity: 0.7;
+}

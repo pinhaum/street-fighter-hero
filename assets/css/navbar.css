@@ -1,0 +1,43 @@
+.navbar {
+  height: 6.5rem;
+  width: 100vw;
+
+  background-color: var(--black);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar > .logo {
+  margin: 1rem 2rem;
+}
+
+.navbar > .logo img {
+  width: 7rem;
+}
+
+.navbar > .navigation {
+  width: 30%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.navbar > .navigation a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media (min-width: 641px) {
+  .navbar > .navigation {
+    width: 50%;
+    flex-direction: row;
+  }
+}
