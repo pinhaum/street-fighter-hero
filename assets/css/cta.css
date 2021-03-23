@@ -31,6 +31,12 @@
   width: 6rem;
 }
 
+.button:hover {
+  background-color: transparent;
+  color: var(--black);
+  border: 2px solid;
+}
+
 @media (min-width: 641px) {
   .cta > .cta-container {
     padding: 1rem 30%;
