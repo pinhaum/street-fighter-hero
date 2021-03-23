@@ -13,6 +13,8 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+
+  padding: 1rem;
 }
 
 .cta > .cta-container .column {
@@ -27,4 +29,10 @@
   border-radius: 6px;
   height: 3rem;
   width: 6rem;
+}
+
+@media (min-width: 641px) {
+  .cta > .cta-container {
+    padding: 1rem 30%;
+  }
 }
